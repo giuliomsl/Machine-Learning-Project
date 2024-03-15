@@ -70,7 +70,7 @@ def scatter_plot(D, L):
 
             plt.legend()
             plt.tight_layout()
-            plt.savefig('scatter/scatt_%d.pdf' % i)
+            plt.savefig('scatter/scatt_%d_%d.pdf' % (i, j))
         plt.show()
 
 
